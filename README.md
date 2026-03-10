@@ -45,13 +45,6 @@ streamlit run app.py
 
 The application will be available in your browser at `http://localhost:8501`.
 
-## Deployment to Streamlit Cloud
-
-1.  Push your code to a GitHub repository.
-2.  Connect your repository to [Streamlit Cloud](https://streamlit.io/cloud).
-3.  Set the main file path to `app.py`.
-4.  **Important**: Ensure you use the provided `requirements.txt` which installs the specific `transformers` fork required for BitNet.
-
 ## Troubleshooting
 
 - **Slow Inference**: Running BitNet on CPU can be slow due to weight unpacking. This is expected behavior on hardware without a compatible GPU.
@@ -64,5 +57,3 @@ The application will be available in your browser at `http://localhost:8501`.
 - **Precision**: `float32` (Optimized for CPU stability)
 - **Library**: Custom `transformers` fork with BitNet support.
 
----
-Created with ❤️ using Streamlit and BitNet.
